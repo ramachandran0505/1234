@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Gifts | Luxury Occasion Gifting & Handcrafted Hampers</title>
+    <meta name="description"
+        content="Discover premium curated gifts for Anniversaries, Birthdays, Valentine's Day, Weddings, and Festivals. Handcrafted luxury packaging with same-day express delivery.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+
+    <!-- ================= TOP ANNOUNCEMENT BAR ================= -->
+    <aside class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-left">
+                ✨ <span class="top-bar-highlight">Complimentary Luxury Gift Wrapping</span> & Gold Foil Card on orders
+                over $75
+            </div>
+            <div class="top-bar-links">
+                <a href="#offers">Special Offers</a>
+                <a href="#features">Track Order</a>
+                <a href="#footer">Contact Us</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ================= STICKY RESPONSIVE HEADER ================= -->
+    <header class="site-header" id="header">
+        <div class="container nav-container">
+
+            <!-- Brand Logo / Identity -->
+            <a href="index.html" class="brand-logo" id="brand-logo" aria-label="Aura Gifts Home">
+                <img src="images/logo.png" alt="Aura Gifts Emblem" class="brand-logo-img">
+                <div class="brand-title-wrap">
+                    <span class="brand-name">AURA GIFTS</span>
+                    <span class="brand-tagline">Curated Elegance</span>
+                </div>
+            </a>
+
+            <!-- Pure CSS Mobile Hamburger Input Checkbox -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+
+            <!-- Occasions Direct Navigation Menu -->
+            <nav class="nav-menu" id="primary-navigation" aria-label="Main Navigation">
+                <div class="nav-item"><a href="index.html" class="nav-link active">Home</a></div>
+                <div class="nav-item"><a href="anniversary.html" class="nav-link">Anniversary</a></div>
+                <div class="nav-item"><a href="birthday.html" class="nav-link">Birthday</a></div>
+                <div class="nav-item"><a href="valentines.html" class="nav-link">Valentine's Day</a></div>
+                <div class="nav-item"><a href="marriage.html" class="nav-link">Marriage</a></div>
+                <div class="nav-item"><a href="festivals.html" class="nav-link">Festivals</a></div>
+                <div class="nav-item"><a href="corporate.html" class="nav-link">Corporate Gifts</a></div>
+                <div class="nav-item has-dropdown">
+                    <a href="#occasions" class="nav-link">More ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="#trending" class="dropdown-item">Trending Hampers</a>
+                        <a href="#offers" class="dropdown-item">Special Discounts</a>
+                        <a href="#features" class="dropdown-item">Our Promise</a>
+                        <a href="#footer" class="dropdown-item">Bespoke Concierge</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Right Side Actions & Hamburger Toggle -->
+            <div class="nav-actions">
+                <!-- Search Icon Button -->
+                <a href="#trending" class="action-btn" id="search-btn" aria-label="Search Catalog" title="Search Gifts">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </a>
+
+                <!-- Wishlist Icon with Count Badge -->
+                <a href="#trending" class="action-btn" id="wishlist-btn" aria-label="View Wishlist"
+                    title="Your Wishlist">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                    <span class="action-badge">3</span>
+                </a>
+
+                <!-- Cart Icon with Count Badge -->
+                <a href="#trending" class="action-btn" id="cart-btn" aria-label="View Cart" title="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="action-badge">2</span>
+                </a>
+
+                <!-- Account / Sign In Button -->
+                <a href="#footer" class="nav-account-btn" id="account-btn" title="Account Access">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>Sign In</span>
+                </a>
+
+                <!-- Pure CSS Hamburger Toggle Button -->
+                <label for="nav-toggle" class="hamburger-label" id="hamburger-icon" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <main>
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+
+                <!-- Left Content -->
+                <div class="hero-content">
+                    <div class="hero-pill">
+                        <span class="hero-pill-icon">✨</span>
+                        <span>Handcrafted Luxury Gifting Experience</span>
+                    </div>
+
+                    <h1 class="hero-headline">
+                        Make Every Moment <span class="highlight-rose">Unforgettable</span>
+                    </h1>
+
+                    <p class="hero-subheading">
+                        Thoughtful gifts for every special occasion. From bespoke anniversary hampers to enchanting
+                        birthday surprises, create memories wrapped in perfection.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#occasions" class="btn btn-primary" id="hero-explore-cta">
+                            Explore Gifts
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#trending" class="btn btn-outline" id="hero-shop-cta">
+                            Shop Now
+                        </a>
+                    </div>
+
+                    <!-- Trust Milestones -->
+                    <div class="hero-trust-bar">
+                        <div class="trust-item">
+                            <span class="trust-num">75,000+</span>
+                            <span class="trust-label">Happy Moments</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-num">4.9 ★</span>
+                            <span class="trust-label">Customer Rating</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-num">100%</span>
+                            <span class="trust-label">Luxury Packaging</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual Showcase with Floating Elements -->
+                <div class="hero-visual-wrap">
+
+                    <!-- Floating Gift Box Card -->
+                    <div class="floating-element float-badge-box">
+                        <div class="badge-box-icon">🎁</div>
+                        <div class="badge-box-text">
+                            <h4>Bespoke Hamper</h4>
+                            <p>Hand-tied silk ribbon</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Heart Badge -->
+                    <div class="floating-element float-heart-badge">
+                        <span class="heart-badge-icon">❤️</span>
+                        <span class="heart-badge-text">Pure Romance</span>
+                    </div>
+
+                    <!-- Floating Golden Sparkles -->
+                    <div class="floating-element sparkle-1">✦</div>
+                    <div class="floating-element sparkle-2">★</div>
+                    <div class="floating-element confetti-dot confetti-gold"></div>
+                    <div class="floating-element confetti-dot confetti-rose"></div>
+
+                    <!-- Centerpiece Hero Image Card -->
+                    <div class="hero-main-card">
+                        <img src="images/hero.jpg" alt="Aura Luxury Gift Box with Red Ribbon and Flowers"
+                            class="hero-image">
+                        <div class="hero-image-overlay">
+                            <span class="hero-overlay-tag">Signature Series</span>
+                            <h3 class="hero-overlay-title">The Royal Velvet Collection</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= OCCASION SECTION ================= -->
+        <section class="occasions-section section-padding" id="occasions">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-tag">Celebrations Redefined</span>
+                    <h2 class="section-title">Find the Perfect Gift for <span>Every Occasion</span></h2>
+                    <p class="section-subtitle">
+                        Whether honoring years of devoted love, cheering milestone birthdays, or expressing timeless
+                        romance, discover hand-curated treasures designed for life's golden moments.
+                    </p>
+                </div>
+
+                <div class="occasions-grid">
+
+                    <!-- Card 1: Anniversary -->
+                    <article class="occasion-card" id="card-anniversary">
+                        <div class="occasion-img-wrap">
+                            <img src="images/anniversary.jpg" alt="Anniversary couple celebration gift"
+                                class="occasion-img">
+                            <span class="occasion-badge">Milestone Love</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">💍</span>
+                                <h3 class="occasion-title">Anniversary</h3>
+                            </div>
+                            <p class="occasion-desc">Celebrate Your Journey Together with engraved timeless keepsakes,
+                                bespoke jewelry boxes, and vintage flutes.</p>
+                            <a href="anniversary.html" class="occasion-btn" id="btn-explore-anniversary">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Birthday -->
+                    <article class="occasion-card" id="card-birthday">
+                        <div class="occasion-img-wrap">
+                            <img src="images/birthday.jpg" alt="Birthday celebration cake and hamper"
+                                class="occasion-img">
+                            <span class="occasion-badge">Festive Cheer</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">🎂</span>
+                                <h3 class="occasion-title">Birthday</h3>
+                            </div>
+                            <p class="occasion-desc">Make Their Day Extra Special with artisan cakes, confetti surprise
+                                boxes, and personalized birthday hampers.</p>
+                            <a href="birthday.html" class="occasion-btn" id="btn-explore-birthday">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: Valentine's Day -->
+                    <article class="occasion-card" id="card-valentines">
+                        <div class="occasion-img-wrap">
+                            <img src="images/valentines.jpg" alt="Red roses and romantic chocolates"
+                                class="occasion-img">
+                            <span class="occasion-badge">Romantic Passion</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">🌹</span>
+                                <h3 class="occasion-title">Valentine's Day</h3>
+                            </div>
+                            <p class="occasion-desc">Express Your Love through long-stem Ecuadorian roses, artisan
+                                Belgian chocolates, and velvet romantic boxes.</p>
+                            <a href="valentines.html" class="occasion-btn" id="btn-explore-valentines">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Marriage -->
+                    <article class="occasion-card" id="card-marriage">
+                        <div class="occasion-img-wrap">
+                            <img src="images/marriage.jpg" alt="Wedding gifts and couple celebration"
+                                class="occasion-img">
+                            <span class="occasion-badge">Eternal Union</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">🥂</span>
+                                <h3 class="occasion-title">Marriage</h3>
+                            </div>
+                            <p class="occasion-desc">Celebrate the Beginning of Forever with opulent wedding hampers,
+                                heirloom decor, and luxury couple suites.</p>
+                            <a href="marriage.html" class="occasion-btn" id="btn-explore-marriage">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: Festivals -->
+                    <article class="occasion-card" id="card-festivals">
+                        <div class="occasion-img-wrap">
+                            <img src="images/festival.jpg" alt="Festival celebration with golden lights and hampers"
+                                class="occasion-img">
+                            <span class="occasion-badge">Pure Radiance</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">✨</span>
+                                <h3 class="occasion-title">Festivals</h3>
+                            </div>
+                            <p class="occasion-desc">Share Joy & Happiness with gourmet festive mithai boxes, brass
+                                diyas, dry fruit hampers, and holiday arrangements.</p>
+                            <a href="festivals.html" class="occasion-btn" id="btn-explore-festivals">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 6: Corporate Gifts -->
+                    <article class="occasion-card" id="card-corporate">
+                        <div class="occasion-img-wrap">
+                            <img src="images/corporate.jpg" alt="Executive gift set with leather diary and pen"
+                                class="occasion-img">
+                            <span class="occasion-badge">Executive Class</span>
+                        </div>
+                        <div class="occasion-content">
+                            <div class="occasion-icon-title">
+                                <span class="occasion-mini-icon">💼</span>
+                                <h3 class="occasion-title">Corporate Gifts</h3>
+                            </div>
+                            <p class="occasion-desc">Gifts That Build Relationships through bespoke branded leather
+                                journals, Montblanc-grade pens, and client thank-you sets.</p>
+                            <a href="corporate.html" class="occasion-btn" id="btn-explore-corporate">
+                                <span>Explore Gifts</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= TRENDING GIFTS (PRODUCT SECTION) ================= -->
+        <section class="products-section section-padding" id="trending">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-tag">Curated Bestsellers</span>
+                    <h2 class="section-title">Trending <span>Gifts</span></h2>
+                    <p class="section-subtitle">
+                        Most adored presents of the season, meticulously created and dressed in our trademark satin
+                        ribbons and velvet boxes.
+                    </p>
+                </div>
+
+                <div class="products-grid">
+
+                    <!-- Product 1 -->
+                    <article class="product-card" id="prod-1">
+                        <div class="product-media">
+                            <img src="images/products/personalized-frame.jpg" alt="Personalized Couple Frame"
+                                class="product-img">
+                            <span class="product-tag">Bestseller</span>
+                            <!-- Pure CSS Interactive Wishlist Toggle -->
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-1" class="wishlist-checkbox">
+                                <label for="wishlist-1" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">4.9 (142)</span>
+                            </div>
+                            <h3 class="product-name">Personalized Couple Frame</h3>
+                            <p class="product-desc">Custom engraved natural walnut wood frame celebrating your cherished
+                                anniversary date.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$48.00</span>
+                                <span class="price-original">$60.00</span>
+                                <span class="price-discount">20% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-1">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card" id="prod-2">
+                        <div class="product-media">
+                            <img src="images/products/birthday-box.jpg" alt="Birthday Surprise Box" class="product-img">
+                            <span class="product-tag tag-gold">Special Edition</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-2" class="wishlist-checkbox">
+                                <label for="wishlist-2" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">4.8 (98)</span>
+                            </div>
+                            <h3 class="product-name">Birthday Surprise Box</h3>
+                            <p class="product-desc">Curated festive explosion box packed with party confetti, scented
+                                candles & macarons.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$65.00</span>
+                                <span class="price-original">$80.00</span>
+                                <span class="price-discount">18% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-2">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card" id="prod-3">
+                        <div class="product-media">
+                            <img src="images/products/rose-bouquet.jpg" alt="Premium Rose Bouquet" class="product-img">
+                            <span class="product-tag">Fresh Daily</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-3" class="wishlist-checkbox" checked>
+                                <label for="wishlist-3" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">5.0 (210)</span>
+                            </div>
+                            <h3 class="product-name">Premium Rose Bouquet</h3>
+                            <p class="product-desc">24 velvety scarlet red roses hand-tied in imported French blush
+                                paper and gold silk.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$55.00</span>
+                                <span class="price-original">$70.00</span>
+                                <span class="price-discount">21% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-3">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 4 -->
+                    <article class="product-card" id="prod-4">
+                        <div class="product-media">
+                            <img src="images/products/love-hamper.jpg" alt="Love Hamper" class="product-img">
+                            <span class="product-tag tag-gold">Romantic Pick</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-4" class="wishlist-checkbox">
+                                <label for="wishlist-4" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">4.9 (175)</span>
+                            </div>
+                            <h3 class="product-name">Love Hamper</h3>
+                            <p class="product-desc">Luxury keepsake trunk featuring rose bath bombs, ruby sparkling
+                                wine, and heart truffles.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$85.00</span>
+                                <span class="price-original">$110.00</span>
+                                <span class="price-discount">22% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-4">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 5 -->
+                    <article class="product-card" id="prod-5">
+                        <div class="product-media">
+                            <img src="images/products/wedding-box.jpg" alt="Wedding Gift Box" class="product-img">
+                            <span class="product-tag">Luxury Heirloom</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-5" class="wishlist-checkbox">
+                                <label for="wishlist-5" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">4.9 (86)</span>
+                            </div>
+                            <h3 class="product-name">Wedding Gift Box</h3>
+                            <p class="product-desc">Monogrammed pure porcelain couple dinnerware, gold flutes and
+                                congratulations scripture.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$120.00</span>
+                                <span class="price-original">$150.00</span>
+                                <span class="price-discount">20% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-5">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 6 -->
+                    <article class="product-card" id="prod-6">
+                        <div class="product-media">
+                            <img src="images/products/personalized-mug.jpg" alt="Personalized Mug" class="product-img">
+                            <span class="product-tag tag-gold">Handmade</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-6" class="wishlist-checkbox">
+                                <label for="wishlist-6" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★☆</span>
+                                <span class="rating-count">4.7 (320)</span>
+                            </div>
+                            <h3 class="product-name">Personalized Ceramic Mug</h3>
+                            <p class="product-desc">Artisan stone ceramic mug with 24k gold foil custom initials and
+                                ergonomic wooden coaster.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$24.00</span>
+                                <span class="price-original">$32.00</span>
+                                <span class="price-discount">25% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-6">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 7 -->
+                    <article class="product-card" id="prod-7">
+                        <div class="product-media">
+                            <img src="images/products/chocolate-hamper.jpg" alt="Chocolate Gift Hamper"
+                                class="product-img">
+                            <span class="product-tag">Gourmet Treats</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-7" class="wishlist-checkbox">
+                                <label for="wishlist-7" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">4.9 (260)</span>
+                            </div>
+                            <h3 class="product-name">Chocolate Gift Hamper</h3>
+                            <p class="product-desc">Assortment of single-origin dark truffles, hazelnut pralines, and
+                                ruby cocoa bars.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$45.00</span>
+                                <span class="price-original">$58.00</span>
+                                <span class="price-discount">22% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-7">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Product 8 -->
+                    <article class="product-card" id="prod-8">
+                        <div class="product-media">
+                            <img src="images/products/luxury-basket.jpg" alt="Luxury Gift Basket" class="product-img">
+                            <span class="product-tag tag-gold">VIP Prestige</span>
+                            <div class="wishlist-toggle">
+                                <input type="checkbox" id="wishlist-8" class="wishlist-checkbox">
+                                <label for="wishlist-8" class="wishlist-label" aria-label="Save to wishlist"
+                                    title="Save to wishlist">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                        </path>
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <div class="product-rating">
+                                <span class="rating-stars">★★★★★</span>
+                                <span class="rating-count">5.0 (74)</span>
+                            </div>
+                            <h3 class="product-name">Luxury Gift Basket</h3>
+                            <p class="product-desc">Woven willow hamper packed with vintage sparkling cider, wild honey,
+                                and gold artisan delicacies.</p>
+                            <div class="product-pricing">
+                                <span class="price-current">$140.00</span>
+                                <span class="price-original">$180.00</span>
+                                <span class="price-discount">22% OFF</span>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" id="cart-add-8">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= DEDICATED ANNIVERSARY SECTION ================= -->
+        <section class="showcase-section anniversary-banner" id="anniversary">
+            <div class="container showcase-split">
+                <div class="showcase-content">
+                    <span class="section-tag">Anniversary Couture</span>
+                    <h2 class="section-title">Celebrate Your <span>Beautiful Journey</span></h2>
+                    <p class="section-subtitle">
+                        Find meaningful gifts that make every anniversary unforgettable. Honor the sacred milestones of
+                        devotion with our bespoke collection of handcrafted crystal, personalized heirlooms, and
+                        champagne hampers.
+                    </p>
+
+                    <div class="milestone-pills">
+                        <span class="milestone-pill">1st Year • Paper</span>
+                        <span class="milestone-pill">5th Year • Wood</span>
+                        <span class="milestone-pill">10th Year • Tin</span>
+                        <span class="milestone-pill">25th Year • Silver Jubilee</span>
+                        <span class="milestone-pill">50th Year • Golden Love</span>
+                    </div>
+
+                    <a href="anniversary.html" class="btn btn-primary" id="btn-anniversary-action">
+                        Explore Anniversary Gifts
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="showcase-gallery">
+                    <img src="images/anniversary.jpg" alt="Luxury Anniversary Gift Showcase" class="showcase-hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= DEDICATED BIRTHDAY SECTION ================= -->
+        <section class="showcase-section birthday-banner" id="birthday">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-tag">Joyful Celebrations</span>
+                    <h2 class="section-title">Make Their Birthday Magical 🎂</h2>
+                    <p class="section-subtitle">
+                        Unwrap smiles with hand-baked confections, fragrant blooms, and customizable birthday surprise
+                        trunks.
+                    </p>
+                </div>
+
+                <!-- 5 Birthday Gift Categories -->
+                <div class="birthday-categories-grid">
+
+                    <a href="birthday.html" class="bday-cat-card">
+                        <span class="bday-icon">🎂</span>
+                        <h3 class="bday-cat-title">Cakes</h3>
+                        <span class="bday-cat-sub">Fresh Fondant & Berry</span>
+                    </a>
+
+                    <a href="birthday.html" class="bday-cat-card">
+                        <span class="bday-icon">🎨</span>
+                        <h3 class="bday-cat-title">Personalized Gifts</h3>
+                        <span class="bday-cat-sub">Custom Name & Dates</span>
+                    </a>
+
+                    <a href="birthday.html" class="bday-cat-card">
+                        <span class="bday-icon">💐</span>
+                        <h3 class="bday-cat-title">Flowers</h3>
+                        <span class="bday-cat-sub">Exotic Lilies & Roses</span>
+                    </a>
+
+                    <a href="birthday.html" class="bday-cat-card">
+                        <span class="bday-icon">🍫</span>
+                        <h3 class="bday-cat-title">Chocolate Hampers</h3>
+                        <span class="bday-cat-sub">Artisan Truffles</span>
+                    </a>
+
+                    <a href="birthday.html" class="bday-cat-card">
+                        <span class="bday-icon">🎁</span>
+                        <h3 class="bday-cat-title">Surprise Boxes</h3>
+                        <span class="bday-cat-sub">Confetti Explosion Sets</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= DEDICATED VALENTINE'S DAY SECTION ================= -->
+        <section class="showcase-section valentines-banner" id="valentines">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-tag">Romance & Elegance</span>
+                    <h2 class="section-title">Give Love, Wrapped Beautifully ❤️</h2>
+                    <p class="section-subtitle">
+                        Curated expressions of romantic intimacy designed to whisper devotion, from forever roses to
+                        decadent cocoa creations.
+                    </p>
+                </div>
+
+                <!-- 5 Valentine's Day Items -->
+                <div class="romantic-grid">
+
+                    <a href="valentines.html" class="romantic-card">
+                        <img src="images/valentines.jpg" alt="Ecuadorian Roses" class="romantic-img">
+                        <div class="romantic-overlay">
+                            <h3 class="romantic-title">Roses</h3>
+                            <span class="romantic-tag">Preserved 2-Year Blooms</span>
+                        </div>
+                    </a>
+
+                    <a href="valentines.html" class="romantic-card">
+                        <img src="images/products/chocolate-hamper.jpg" alt="Artisan Chocolates" class="romantic-img">
+                        <div class="romantic-overlay">
+                            <h3 class="romantic-title">Chocolates</h3>
+                            <span class="romantic-tag">Belgian Pralines</span>
+                        </div>
+                    </a>
+
+                    <a href="valentines.html" class="romantic-card">
+                        <img src="images/products/personalized-frame.jpg" alt="Couple Gifts" class="romantic-img">
+                        <div class="romantic-overlay">
+                            <h3 class="romantic-title">Couple Gifts</h3>
+                            <span class="romantic-tag">Engraved Keepsakes</span>
+                        </div>
+                    </a>
+
+                    <a href="valentines.html" class="romantic-card">
+                        <img src="images/products/personalized-mug.jpg" alt="Personalized Gifts" class="romantic-img">
+                        <div class="romantic-overlay">
+                            <h3 class="romantic-title">Personalized Gifts</h3>
+                            <span class="romantic-tag">Bespoke Monograms</span>
+                        </div>
+                    </a>
+
+                    <a href="valentines.html" class="romantic-card">
+                        <img src="images/products/love-hamper.jpg" alt="Romantic Hampers" class="romantic-img">
+                        <div class="romantic-overlay">
+                            <h3 class="romantic-title">Romantic Hampers</h3>
+                            <span class="romantic-tag">Velvet Trunk Experiences</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= DEDICATED MARRIAGE SECTION ================= -->
+        <section class="showcase-section marriage-banner" id="marriage">
+            <div class="container">
+
+                <div class="section-header">
+                    <span class="section-tag">Sacred Beginnings</span>
+                    <h2 class="section-title">Celebrate Love. Celebrate Togetherness.</h2>
+                    <p class="section-subtitle">
+                        Bless newlyweds and cherished partners with heirloom gifts crafted to last a lifetime.
+                    </p>
+                </div>
+
+                <!-- 4 Marriage Offerings -->
+                <div class="marriage-grid">
+
+                    <a href="marriage.html" class="marriage-item">
+                        <div class="marriage-icon">🎁</div>
+                        <h3 class="marriage-title">Wedding Hampers</h3>
+                        <p class="marriage-desc">Regal trunks loaded with champagne flutes, silk robes, and artisan
+                            treats.</p>
+                    </a>
+
+                    <a href="marriage.html" class="marriage-item">
+                        <div class="marriage-icon">🥂</div>
+                        <h3 class="marriage-title">Couple Gifts</h3>
+                        <p class="marriage-desc">Paired engraved crystal glassware, matching watch sets, and passport
+                            holders.</p>
+                    </a>
+
+                    <a href="marriage.html" class="marriage-item">
+                        <div class="marriage-icon">🏡</div>
+                        <h3 class="marriage-title">Home Gifts</h3>
+                        <p class="marriage-desc">Hand-poured aromatic diffusers, Egyptian cotton throws, and brass
+                            decor.</p>
+                    </a>
+
+                    <a href="marriage.html" class="marriage-item">
+                        <div class="marriage-icon">✨</div>
+                        <h3 class="marriage-title">Personalized Wedding Gifts</h3>
+                        <p class="marriage-desc">Custom vows cast in polished acrylic, family nameplates, and memory
+                            chests.</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= DEDICATED FESTIVALS & CORPORATE SECTION ================= -->
+        <section class="showcase-section" id="festivals" style="background: #FFFDF9;">
+            <div class="container showcase-split">
+                <div class="showcase-gallery">
+                    <img src="images/festival.jpg" alt="Festive Celebrations Hampers" class="showcase-hero-img">
+                </div>
+                <div class="showcase-content">
+                    <span class="section-tag">Festive Radiance</span>
+                    <h2 class="section-title">Share Joy & Happiness in <span>Every Festival</span></h2>
+                    <p class="section-subtitle">
+                        From Diwali to Christmas, Eid to New Year, illuminate your loved ones' celebrations with royal
+                        dry fruit boxes, traditional brass lamps, and decadent artisanal sweets.
+                    </p>
+                    <a href="festivals.html" class="btn btn-gold" id="btn-festivals-action">Explore Festive Hampers</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Corporate Section Anchor -->
+        <section class="showcase-section" id="corporate"
+            style="background: #F8F4EE; border-top: 1px solid var(--color-border-delicate);">
+            <div class="container showcase-split">
+                <div class="showcase-content">
+                    <span class="section-tag">Professional Elegance</span>
+                    <h2 class="section-title">Gifts That <span>Build Relationships</span></h2>
+                    <p class="section-subtitle">
+                        Strengthen corporate bonds and impress high-value partners with custom branded leather
+                        portfolios, Swiss timepieces, and curated executive desk amenities.
+                    </p>
+                    <a href="corporate.html" class="btn btn-outline" id="btn-corporate-action">Explore Corporate
+                        Collection</a>
+                </div>
+                <div class="showcase-gallery">
+                    <img src="images/corporate.jpg" alt="Corporate Executive Gift Set" class="showcase-hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SPECIAL OFFER & COUNTDOWN SECTION ================= -->
+        <section class="special-offer-section" id="offers">
+            <div class="container offer-container">
+
+                <div class="offer-content">
+                    <span class="offer-tag">Limited Time Privilege</span>
+                    <h2 class="offer-headline">Special Occasion Sale 🎁<br><span>Up to 40% OFF</span> on Selected Gifts
+                    </h2>
+                    <p class="offer-desc">
+                        Enjoy exclusive seasonal savings on our most coveted luxury gift boxes, couple frames, and
+                        gourmet hampers. Hand-packed with ribbon and love.
+                    </p>
+
+                    <!-- Pure HTML/CSS Static Countdown Timer Representation -->
+                    <div class="countdown-wrap"
+                        aria-label="Countdown timer: 2 days, 14 hours, 35 minutes, 28 seconds remaining">
+                        <div class="countdown-box">
+                            <span class="countdown-num">02</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <span class="countdown-colon">:</span>
+                        <div class="countdown-box">
+                            <span class="countdown-num">14</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <span class="countdown-colon">:</span>
+                        <div class="countdown-box">
+                            <span class="countdown-num">35</span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <span class="countdown-colon">:</span>
+                        <div class="countdown-box">
+                            <span class="countdown-num">28</span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+
+                    <a href="#trending" class="btn btn-gold" id="btn-shop-offers">
+                        Shop Offers
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="offer-visual-card">
+                    <img src="images/hero.jpg" alt="Special Festive Offer Luxury Box" class="offer-img">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= 4 VALUE FEATURE CARDS ================= -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="features-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon-wrap">🚚</div>
+                        <h3 class="feature-title">Fast Delivery</h3>
+                        <p class="feature-desc">Deliver happiness on time with same-day metropolitan dispatch and live
+                            GPS tracking.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon-wrap">🎁</div>
+                        <h3 class="feature-title">Premium Packaging</h3>
+                        <p class="feature-desc">Beautifully packed with love using heavy card trunks, wax seals, and
+                            satin ribbons.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon-wrap">💳</div>
+                        <h3 class="feature-title">Secure Payment</h3>
+                        <p class="feature-desc">Safe and secure checkout with 256-bit SSL encryption and instant fraud
+                            protection.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon-wrap">💝</div>
+                        <h3 class="feature-title">Personalized Gifts</h3>
+                        <p class="feature-desc">Make every gift uniquely yours with complimentary laser engraving and
+                            handwritten calligraphy notes.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= PROFESSIONAL MULTI-COLUMN FOOTER ================= -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Column 1: Brand Info -->
+                <div class="footer-col-brand">
+                    <div class="footer-brand-logo">
+                        <img src="images/logo.png" alt="Aura Gifts Official Logo">
+                        <span class="footer-brand-title">AURA GIFTS</span>
+                    </div>
+                    <p class="footer-desc">
+                        Crafting unforgettable moments through bespoke luxury gifts, handcrafted hampers, and
+                        personalized emotions delivered with grace across the world.
+                    </p>
+                    <div class="footer-social-icons">
+                        <a href="#footer" class="social-link" aria-label="Follow us on Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#footer" class="social-link" aria-label="Follow us on Pinterest">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="8" x2="12" y2="16"></line>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </svg>
+                        </a>
+                        <a href="#footer" class="social-link" aria-label="Follow us on Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#footer" class="social-link" aria-label="Follow us on Twitter">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#occasions">About Us</a></li>
+                        <li><a href="#features">Contact</a></li>
+                        <li><a href="#features">FAQ & Help</a></li>
+                        <li><a href="corporate.html">Corporate Gifting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Occasions -->
+                <div>
+                    <h4 class="footer-heading">Occasions</h4>
+                    <ul class="footer-links">
+                        <li><a href="anniversary.html">Anniversary</a></li>
+                        <li><a href="birthday.html">Birthday</a></li>
+                        <li><a href="valentines.html">Valentine's Day</a></li>
+                        <li><a href="marriage.html">Marriage</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="corporate.html">Corporate Gifts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Customer Support & Newsletter -->
+                <div>
+                    <h4 class="footer-heading">Customer Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Shipping Information</a></li>
+                        <li><a href="#features">Returns & Exchanges</a></li>
+                        <li><a href="#features">Privacy Policy</a></li>
+                        <li><a href="#features">Terms & Conditions</a></li>
+                    </ul>
+
+                    <div class="newsletter-box">
+                        <p style="font-size: 0.85rem; color: #B5A8A4; margin-top: 15px;">Subscribe for exclusive luxury
+                            privileges:</p>
+                        <form class="newsletter-form" action="#footer" method="GET">
+                            <input type="email" class="newsletter-input" placeholder="Your email address..." required
+                                aria-label="Your email address">
+                            <button type="submit" class="newsletter-submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Credits & Payment Badges -->
+            <div class="footer-bottom">
+                <p>© 2026 Aura Gifts Inc. All rights reserved. Thoughtfully crafted with pure HTML5 & CSS3.</p>
+                <div class="payment-badges">
+                    <span class="payment-pill">VISA</span>
+                    <span class="payment-pill">Mastercard</span>
+                    <span class="payment-pill">Apple Pay</span>
+                    <span class="payment-pill">AMEX</span>
+                    <span class="payment-pill">PayPal</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
